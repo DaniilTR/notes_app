@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MdNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Используем дефолтные цвета Material3 (без захардкоженных новых палитр) -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
